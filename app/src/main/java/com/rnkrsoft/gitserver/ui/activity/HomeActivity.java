@@ -220,7 +220,7 @@ public class HomeActivity extends BaseActivity {
 
         registerReceiver(sshdBroadcastReceiver, sshdIntentFilter);
 
-        boolean firstrun = PreferenceManager.getDefaultSharedPreferences(this).getBoolean("firstrun", true);
+        boolean firstrun = PreferenceManager.getDefaultSharedPreferences(this).getBoolean("firstRun", true);
         if (firstrun) {
             tutorialDialog = Commons.showTutorialDialog(this);
         }
@@ -251,7 +251,6 @@ public class HomeActivity extends BaseActivity {
         if (id == R.id.homeBtnStartStop) {
             boolean isSshServiceRunning = Commons.isSshServiceRunning(HomeActivity.this);
 
-//			Intent intent = new Intent(C.action.START_SSH_SERVER);
             Intent intent = new Intent(this, SSHDaemonService.class);
             if (!isSshServiceRunning) {
                 startService(intent);
