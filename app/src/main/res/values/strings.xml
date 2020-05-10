@@ -31,8 +31,8 @@
     <string name="click_to_disable">禁用</string>
     <string name="click_to_enable">启用</string>
     <string name="settings_git_repositories_directory">Git repositories directory</string>
-    <string name="settings_ssh_server_port">SSH server port</string>
-    <string name="settings_start_on_boot">Start SSH server on boot</string>
+    <string name="statusbar_notification">状态栏提示</string>
+    <string name="settings_ssh_server_port">SSH服务端口</string>
 	<string name="dns_provider_title">Choose DNS provider</string>
     <string-array name="dns_providers">
         <item>DynDNS.com</item>

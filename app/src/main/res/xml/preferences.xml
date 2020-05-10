@@ -5,7 +5,7 @@
         
 		<CheckBoxPreference 
 		    android:key="statusbar_notification"
-		    android:title="StatusBar notification"
+		    android:title="@string/statusbar_notification"
 		    android:summaryOn="@string/click_to_disable"
 		    android:summaryOff="@string/click_to_enable"
 		    android:defaultValue="true"/>
