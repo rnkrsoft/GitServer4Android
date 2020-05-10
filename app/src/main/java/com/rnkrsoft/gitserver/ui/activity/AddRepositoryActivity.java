@@ -208,6 +208,8 @@ public class AddRepositoryActivity extends BaseActivity {
 				Log.e(TAG, "SQL problem.", e);
 				Toast.makeText(AddRepositoryActivity.this, "数据库错误.", Toast.LENGTH_SHORT).show();
 				return;
+			}finally {
+				dialog.dismiss();
 			}
 
 			new Thread(new Runnable() {
@@ -219,6 +221,7 @@ public class AddRepositoryActivity extends BaseActivity {
 						repositoryDao.createRepository(mapping);
 
 						setResult(RESULT_OK, null);
+						Toast.makeText(AddRepositoryActivity.this, "创建仓库'"+ name +"'成功！.", Toast.LENGTH_SHORT).show();
 						finish();
 					} catch (RepositoryNotFoundException e) {
 						Log.e(TAG, "Problem while creating repository.", e);

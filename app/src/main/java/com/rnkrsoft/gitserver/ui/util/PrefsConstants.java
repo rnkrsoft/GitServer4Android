@@ -5,7 +5,7 @@ import android.os.Environment;
 public enum PrefsConstants {
 
 	SSH_PORT("ssh_port", "2222"),
-	GIT_REPOSITORIES_DIR("git_repositories_dir", Environment.getExternalStorageDirectory().getPath() + "/git_server/repositories"),
+	GIT_REPOSITORIES_DIR("git_repositories_dir", Environment.getExternalStorageDirectory().getPath() + "/gitserver/repositories"),
 	STATUSBAR_NOTIFICATION("statusbar_notification", "true"),
 	SSH_SERVICE_STARTUP("ssh_service_startup", "false"),
 	
