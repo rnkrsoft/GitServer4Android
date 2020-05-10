@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Git Server</string>
+    <string name="app_name">Git Server</string>
+    <string name="add_user_fullname">用户全名</string>
+    <string name="add_user_email">电子邮箱</string>
+    <string name="add_user_username">用户名</string>
+    <string name="btn_add">增加</string>
+    <string name="btn_cancel">取消</string>
+    <string name="add_user_password">密码</string>
+    <string name="add_user_publickey">公钥</string>
+    <string name="add_repository_name">仓库名</string>
+    <string name="add_repository_mapping">映射名称</string>
+    <string name="add_repository_description">描述</string>
+    <string name="btn_edit">编辑</string>
+    <string name="add_user_title">新增用户</string>
+    <string name="add_user_edittitle">编辑用户</string>
+	<string name="add_user_activate">启用用户</string>
+    <string name="btn_add_user">新增用户</string>
+    <string name="btn_add_repository">新增仓库</string>
+    <string name="add_repository_title">新增仓库</string>
+    <string name="add_repository_edittitle">编辑仓库</string>
+    <string name="action_popup_edit">编辑</string>
+    <string name="action_popup_delete">删除</string>
+    <string name="action_popup_activate">启用</string>
+    <string name="action_popup_deactivate">禁用</string>
+    <string name="btn_done">Done</string>
+    <string name="repository_permissions_item_pull">拉取</string>
+    <string name="repository_permissions_item_push">推送</string>
+    <string name="click_to_disable">禁用</string>
+    <string name="click_to_enable">启用</string>
+    <string name="settings_git_repositories_directory">Git repositories directory</string>
+    <string name="settings_ssh_server_port">SSH server port</string>
+    <string name="settings_start_on_boot">Start SSH server on boot</string>
+	<string name="dns_provider_title">Choose DNS provider</string>
+    <string-array name="dns_providers">
+        <item>DynDNS.com</item>
+        <item>No-Ip.com</item>
+    </string-array>
+	<string name="show_password">显示密码</string>
+	<string name="dns_password">密码</string>
+	<string name="dns_username">用户名</string>
+	<string name="dns_domain_name">域名</string>
+	<string name="dns_provider">Provider</string>
+	<string name="dns_activate">Activate Dynamic DNS service</string>
+	<string name="dns_deactivate">Deactivate Dynamic DNS service</string>
+	<string name="btn_save">保存</string>
+	<string name="repositories_no_repositories_label">无</string>
+	<string name="users_no_users_label">无</string>
+	<string name="use_contact">Use contact</string>
+	<string name="home_start">启动</string>
+	<string name="dialog_pick_e_mail_address">电子邮箱地址</string>
+	<string name="user_details">用户详情</string>
+	<string name="no_repositories">无</string>
+	<string name="add_permission">新增权限</string>
+	<string name="no_permissions">无</string>
+	<string name="permissions">权限</string>
+	<string name="edit">编辑</string>
+	<string name="activate">启用</string>
+	<string name="delete">删除</string>
+	<string name="repository_details">仓库详情</string>
+	<string name="no_users">无</string>
+	<string name="add_repository_activate">启用仓库</string>
+	<string name="server_settings">服务器设置</string>
+	<string name="general_settings">基本设置</string>
+	<string name="general_autostart">自动启动</string>
+	<string name="general_autostop">自动停止</string>
+	<string name="eula">
+		随着时代的发展，近十年有大量的智能手机被淘汰，仅仅因为性能不能满足人们的要求。但是空白的手机实际存储是完好，如果只是专门处理一件事是能够很好胜任。手机天然拥有移动电源，WIFI功能，蓝牙功能等。在硬件基础上还能实现无线热点。那么这就天然具备了一个服务器的能力，如果能够将程序员每天要用的Git服务整合到手机中，那么就能实现移动的代码托管平台。
+        对于个人开发者可以拥有一个随身移动的代码托管仓库。对于初创公司可以省去搭建代码私服仓库，可以使用一台废旧手机搭建起一个代码仓库。
+	</string>
+	<string name="updates"></string>
+	<string name="about">关于</string>
+</resources>

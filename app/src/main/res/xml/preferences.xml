@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/general_settings">
+        
+		<CheckBoxPreference 
+		    android:key="statusbar_notification"
+		    android:title="StatusBar notification"
+		    android:summaryOn="@string/click_to_disable"
+		    android:summaryOff="@string/click_to_enable"
+		    android:defaultValue="true"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/server_settings">
+        
+        <EditTextPreference 
+            android:key="ssh_port"
+            android:title="@string/settings_ssh_server_port"
+            android:defaultValue="2222"/>
+
+		<CheckBoxPreference 
+		    android:key="autostart_on_wifi_on"
+		    android:title="@string/general_autostart"
+			android:summaryOn="WiFi启动时自动启动"
+			android:summaryOff="WiFi启动时自动启动"
+		    android:defaultValue="false"/>
+        
+        <CheckBoxPreference 
+		    android:key="autostop_on_wifi_off"
+		    android:title="@string/general_autostop"
+		    android:summaryOn="WiFi禁用时自动禁用"
+		    android:summaryOff="WiFi禁用时自动禁用"
+		    android:defaultValue="false"/>
+		
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/about">
+        
+		<Preference 
+		    android:key="help_tutorial"
+		    android:title="帮助"
+		    android:summary="帮助信息"/>
+		
+    </PreferenceCategory>
+
+</PreferenceScreen>
