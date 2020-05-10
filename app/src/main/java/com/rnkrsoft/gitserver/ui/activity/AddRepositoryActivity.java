@@ -217,8 +217,8 @@ public class AddRepositoryActivity extends BaseActivity {
 					Looper.prepare();
 					
 					try {
-						getHelper().getRepositoryDao().create(new Repository(0, name, mapping, description, active, System.currentTimeMillis()));
 						repositoryDao.createRepository(mapping);
+						getHelper().getRepositoryDao().create(new Repository(0, name, mapping, description, active, System.currentTimeMillis()));
 
 						setResult(RESULT_OK, null);
 						Toast.makeText(AddRepositoryActivity.this, "创建仓库'"+ name +"'成功！.", Toast.LENGTH_SHORT).show();
